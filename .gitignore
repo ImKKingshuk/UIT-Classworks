@@ -95,3 +95,30 @@ build/
 
 # Visual Studio Code settings
 .vscode/
+
+
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+env/
+*.venv/
+*.env/
+*.env.bak/
+*.env.save/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python-specific ignore
+*.egg-info/
+dist/
+build/
+*.egg
+
+
