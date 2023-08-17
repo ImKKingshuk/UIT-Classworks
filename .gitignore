@@ -22,3 +22,76 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# IntelliJ IDEA project files
+.idea/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Compiled output
+bin/
+
+# Maven build directory
+target/
+
+# Gradle build directory
+build/
+
+# IntelliJ IDEA code style settings
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Javadoc generated files
+/doc/
+
+# Compiled archives and binaries
+*.war
+*.ear
+*.jar
+*.zip
+*.rar
+
+# Operating System and IDE temporary files
+*~
+*.swp
+*.bak
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Windows Desktop.ini
+Desktop.ini
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+
+# NetBeans IDE
+nbproject/private/
+build/
+
+# Visual Studio Code settings
+.vscode/
