@@ -162,3 +162,92 @@ Carthage/Build
 
 
 
+# Compiled Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Temp files
+*.tmp
+*.log
+*.swp
+
+# IDE and build files
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.sln.docstates
+*_i.c
+*_p.c
+*.opensdf
+*.sdf
+*.cproject
+*.settings/
+*.vcxproj*
+*.ilk
+*.log
+*.tlog
+*.xcodeproj/
+*.xcworkspace/
+*.cscope
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+ehthumbs_vista.db
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+
+# Makefile generated files
+Makefile.in
+Makefile.in.in
+/autom4te.cache/
+/aclocal.m4
+/config.guess
+/config.sub
+/config.log
+/config.status
+/configure
+/depcomp
+/install-sh
+/ltmain.sh
+/m4/
+/Makefile
+/Makefile.in
+/missing
+/stamp-h1
+
+# Eclipse
+.settings/
+.cproject
+.project
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+
+
