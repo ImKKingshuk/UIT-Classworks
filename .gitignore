@@ -251,3 +251,48 @@ Makefile.in.in
 
 
 
+# Node.js
+node_modules/
+
+# Dependency directories
+jspm_packages/
+typings/
+
+# Compiled output
+dist/
+out/
+build/
+dist-amd/
+dist-cjs/
+dist-esm/
+dist-umd/
+dist-system/
+dist-types/
+
+# Log files
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment configuration
+.env
+
+# Compiled JavaScript files
+*.js
+*.mjs
+
+# TypeScript config file
+tsconfig.json
+
+# TypeScript build cache
+tsconfig.tsbuildinfo
+
+
+
