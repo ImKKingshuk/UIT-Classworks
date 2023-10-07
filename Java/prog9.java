@@ -1,4 +1,5 @@
 // Java Program to Show Left and Right Shift Operations
+
 public class prog9 {
     public static void main(String[] args) {
         int number = 10;
