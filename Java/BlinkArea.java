@@ -1,4 +1,3 @@
-package Java;
 
 public class BlinkArea {
     public static void main(String[] args) {

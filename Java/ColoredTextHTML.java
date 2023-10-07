@@ -1,4 +1,3 @@
-package Java;
 
 import javax.swing.*;
 import java.awt.*;
