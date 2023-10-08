@@ -1,0 +1,13 @@
+@Component
+class MyComponent extends Component {
+  @Prop
+  isLoggedIn: boolean;
+
+  render() {
+    return (
+      <Button hidden={!this.isLoggedIn}>
+        Login
+      </Button>
+    );
+  }
+}

@@ -1,0 +1,10 @@
+@Component
+class MyComponent extends Component {
+  render() {
+    return (
+      <Text>
+        Hello, world!
+      </Text>
+    );
+  }
+}
