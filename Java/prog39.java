@@ -1,4 +1,4 @@
-java programme to show the use of nested try statement.
+// java programme to show the use of nested try statement.
 public class prog39 {
     public static void main(String[] args) {
         try {
