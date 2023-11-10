@@ -1,4 +1,4 @@
-java programme to add numbers from 1-1000 by two threads.
+// java programme to add numbers from 1-1000 by two threads.
 class prog42  {
     private static int N = 1000;
     private static int sumParent = 0;
