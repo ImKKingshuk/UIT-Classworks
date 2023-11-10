@@ -1,4 +1,4 @@
-Wap in java to show the existence of default exception handlers in java.
+//  java programme to show the existence of default exception handlers in java.
 public class prog36 {
     public static void main(String[] args) {
       
