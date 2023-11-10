@@ -1,4 +1,4 @@
-// Write a java programme which will add last 4 digits of your roll number and show the summation of it.
+// java programme, which will add last 4 digits of your roll number and show the summation of it.
 
 import java.util.Scanner;
 
