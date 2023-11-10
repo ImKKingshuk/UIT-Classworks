@@ -1,4 +1,4 @@
-// Write a java programme to display your name and roll number
+//  java programme to display your name and roll number
 
 public class prog1 {
     public static void main(String[] args) {
