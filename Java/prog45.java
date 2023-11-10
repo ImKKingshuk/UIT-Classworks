@@ -1,4 +1,4 @@
-//Wap in java to show Deadlock.
+// java programme to show Deadlock.
 
 public class prog45 
 {
