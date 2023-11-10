@@ -1,3 +1,4 @@
+// java programme to throw Throwable object from try and catch block.
 public class prog40 {
     public static void main(String[] args) {
         try {
