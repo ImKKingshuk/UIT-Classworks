@@ -1,5 +1,6 @@
 // Show that when you are calculating the summation of numbers by two threads (assignment no 42) the time requirement is less than the time requirement by a single threaded program for doing the same task.
-public class prog46 {
+
+class prog46  {
     private static int N = 1000;
     private static int sumParent = 0;
     private static int sumChild = 0;
@@ -27,5 +28,5 @@ public class prog46 {
         System.out.println("Sum of odd numbers (Parent Thread): " + sumParent);
         System.out.println("Sum of even numbers (Child Thread): " + sumChild);
         System.out.println("Total Sum: " + totalSum);
-   
+    }
 }
