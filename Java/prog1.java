@@ -3,7 +3,7 @@
 public class prog1 {
     public static void main(String[] args) {
         String name = "ImKKingshuk";
-        int rollNumber = 20211022; // Replace with your actual roll number
+        int rollNumber = 20211022; 
 
         System.out.println("Name: " + name);
         System.out.println("Roll Number: " + rollNumber);
