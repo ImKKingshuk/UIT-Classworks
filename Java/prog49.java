@@ -1,4 +1,4 @@
- java programme for Stack using generic class
+//  java programme for Stack using generic class
 
 import java.util.ArrayList;
 import java.util.EmptyStackException;
