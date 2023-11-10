@@ -1,4 +1,4 @@
-//Wap in java to show that higher priority threads getting more CPU time than lower priority thread.
+//java programme to show that higher priority threads getting more CPU time than lower priority thread.
 public class prog43 
 {
     public static void main(String[] args) 
