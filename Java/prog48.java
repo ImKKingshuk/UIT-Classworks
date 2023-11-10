@@ -1,4 +1,4 @@
-
+// java  programme which will copy the content of one file into another
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
