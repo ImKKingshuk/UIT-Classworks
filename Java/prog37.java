@@ -1,4 +1,4 @@
-java to show the use of ArithmaticException.
+java  programme to show the use of ArithmaticException.
 public class prog37 {
     public static void main(String[] args) {
         int dividend = 10;
