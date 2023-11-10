@@ -1,4 +1,4 @@
-//Wap in java to implement producer-consumer problem.
+// java programme to implement producer-consumer problem.
 import java.util.concurrent.ArrayBlockingQueue;
 public class prog44 
 {
