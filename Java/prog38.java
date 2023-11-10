@@ -1,3 +1,4 @@
+java to show the use of Multiple catch block
 public class prog38 {
     public static void main(String[] args) {
         try {
