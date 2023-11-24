@@ -1,0 +1,2 @@
+myname = 'ImKKingshuk';
+disp(myname);
