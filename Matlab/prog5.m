@@ -1,0 +1,10 @@
+a = input('ENTER A : ');
+b = input('ENTER B : ');
+a = a + b;
+b = a - b;
+a = a - b;
+disp('AFTER SWAPPING');
+disp('A = ');
+disp(a);
+disp('B = ');
+disp(b);
