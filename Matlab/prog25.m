@@ -1,0 +1,12 @@
+a = [12 2 53; 41 25 6; 7 80 19];
+b = [4 51 23; 8 21 34; 9 12 36];
+c = a * b;
+nexttile;
+surf(a);
+legend('A');
+nexttile;
+surf(b);
+legend('B');
+nexttile;
+surf(c);
+legend('C');
