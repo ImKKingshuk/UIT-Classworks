@@ -20,7 +20,15 @@
 
 
 
-// Simplified version of the ATSP-TW:
+
+// -----------------------------------------------
+
+
+// Simplified version of the ATSP-TW: 
+// A basic nearest neighbor algorithm to construct a tour.
+// It doesn't consider many complexities of the real ATSP-TW problem, such as asymmetric distances and dynamic programming for optimization.
+
+
 
 #include <stdio.h>
 #include <limits.h>
