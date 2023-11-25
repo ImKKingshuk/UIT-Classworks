@@ -19,6 +19,8 @@
 # Termination: Repeat the iteration process until a termination condition is met (e.g., a maximum number of iterations or convergence criteria).
 
 
+
+# use any library (Google OR-Tools, Gurobi, CPLEX)... Currently using OR-Tools
 from ortools.linear_solver import pywraplp
 
 def solve_atsp_tw(distance_matrix, time_windows):
