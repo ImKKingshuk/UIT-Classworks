@@ -63,4 +63,18 @@ where
     sm.Subject_3 < 40;
 
 
-    
+-- x.Show the Student IDs who have failed in Subject 2 (marks less than 40) but have got highest marks either in Subject 1 or Subject 3.
+select
+sd.Student_ID,
+Name,
+Subject_1,
+Subject_2,
+Subject_3
+from Student_details sd
+join Student_marks sm on sd.Roll_No = sm.Roll_No
+where sm.Subject_2 < 40
+and (
+    (sm.Subject_1 >= sm.Subject_3 and sm.Subject_1 >= 40)
+       or
+    (sm.Subject_3 > sm.Subject_1 and sm.Subject_3 >= 40)
+);
