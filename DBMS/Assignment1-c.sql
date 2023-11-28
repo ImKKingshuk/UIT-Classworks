@@ -39,8 +39,28 @@ select
     sd.Student_ID,
     sd.Name,
     sm.Subject_2
-from
+from Student_marks sm
 join
     Student_details sd on sm.Roll_No = sd.Roll_No
 where
     sm.Subject_2 < 40;
+
+--ix.Show the Student IDs and Names of students who have failed in both Subject 1 & Subject 3 (marks less than 40) but have passed in Subject 2 (marks greater than or equal to 40).
+select
+    sd.Student_ID,
+    sd.Name,
+    sm.Subject_1,
+    sm.Subject_2,
+    sm.Subject_3
+from Student_marks sm
+join
+    Student_details sd on sm.Roll_No = sd.Roll_No
+where
+    sm.Subject_1 < 40
+       and
+    sm.Subject_2 >= 40
+       and
+    sm.Subject_3 < 40;
+
+
+    
