@@ -75,4 +75,8 @@ where COMM is null;
 select ENAME, JOB from EMP
 where MGR is null;
 
+-- x.List the employees not assigned to any department.
+select EMPNO, ENAME, JOB from EMP
+where DEPTNO is null;
+
 
