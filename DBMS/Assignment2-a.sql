@@ -52,3 +52,7 @@ where JOB in ('Analyst', 'Salesman');
 -- ii.List the details of employees who have joined before 30 Sep, 81.
 select * from EMP
 where HIREDATE < '1981-07-30';
+
+-- iii.List names of employees who are not managers.
+select ENAME, JOB from EMP
+where JOB != 'Manager';
