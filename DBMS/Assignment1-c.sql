@@ -18,3 +18,7 @@ where Address = 'Burdwan' or Address = 'Durgapur';
 -- v.Show the Names & Student IDs of all students who got admission on and after 17-08-2021.
 select Name, Student_ID from Student_details
 where Admission_Date >= '2021-08-17';
+
+-- vi.Display the Student ID of students admitted in the year 2022.
+select Student_ID from Student_details
+where (Admission_Date >= '2022-01-01' and Admission_Date <= '2022-12-31');
