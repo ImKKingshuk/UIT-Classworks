@@ -98,3 +98,15 @@ from EMP;
 -- xv.List the number of designation available in EMP table.
 select count(distinct JOB) as JOBS
 from EMP;
+
+-- xvi.List the total salaries paid to the employees.
+select sum(SAL) as Total_SAL from EMP;
+
+-- xvii.List the maximum, minimum and average salary of the company.
+select
+       max(SAL) as MAXSAL,
+       min(SAL) as MINSAL,
+       avg(SAL) as AVGSAL
+from EMP;
+
+
