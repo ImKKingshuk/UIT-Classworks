@@ -59,3 +59,6 @@ where EMPNO in (7369, 7521, 7839, 7934, 7788);
 select * from EMP
 where DEPTNO not in (30, 40, 10);
 
+-- vi.List employee names for those who have joined between 30 June and 31 Dec, '81.
+select ENAME, HIREDATE from EMP
+where HIREDATE >= '1981-06-30' AND HIREDATE <= '1981-12-31';
