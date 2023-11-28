@@ -54,3 +54,8 @@ where JOB != 'Manager';
 -- iv.List names of employees whose employee numbers are 7369, 7521, 7839, 7934, 7788.
 select EMPNO, ENAME from EMP
 where EMPNO in (7369, 7521, 7839, 7934, 7788);
+
+-- v.List employees not belonging to department 30, 40 or 10.
+select * from EMP
+where DEPTNO not in (30, 40, 10);
+
