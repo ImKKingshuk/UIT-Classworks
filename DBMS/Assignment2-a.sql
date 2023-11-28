@@ -19,5 +19,3 @@ Subject_1 int check
 Subject_2 int check
 Subject_3 int check
 (Subject_1 >= 0 AND Subject_1 <= 100), (Subject_2 >= 0 AND Subject_2 <= 100), (Subject_3 >= 0 AND Subject_3 <= 100)
-
-
