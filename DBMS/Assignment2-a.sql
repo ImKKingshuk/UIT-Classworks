@@ -79,4 +79,6 @@ where MGR is null;
 select EMPNO, ENAME, JOB from EMP
 where DEPTNO is null;
 
-
+-- xi.List the employees who are eligible for commissions.
+select EMPNO, ENAME, JOB, COMM from EMP
+where COMM is not null;
