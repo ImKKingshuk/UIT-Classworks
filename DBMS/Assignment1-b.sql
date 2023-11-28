@@ -22,4 +22,4 @@ insert into Student_marks
 
 
        values
-    ('20211022', 100, 100, 100),
+    ('0xKingshuk', 100, 100, 100),
