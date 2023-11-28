@@ -88,3 +88,26 @@ select
 from Student_marks sm
 join
     Student_details sd on sm.Roll_No = sd.Roll_No;
+
+--xii.Show the students' information of all non-CSE branch students whose percentage of marks is greater than the average percentage of the CSE branch.
+declare @cse_avg_per float;
+select @cse_avg_per = avg((Subject_1 + Subject_2 + Subject_3) / 3)
+from Student_details sd
+join Student_marks sm on sd.Roll_No = sm.Roll_No
+where sd.Branch = 'CSE';
+select
+    sd.Student_ID,
+    sd.Name,
+    sd.Roll_No,
+    sd.Address,
+    sd.Branch,
+       (sm.Subject_1 + sm.Subject_2 + sm.Subject_3) / 3 as Percentage,
+       @cse_avg_per as CSE_avg_per
+from
+Student_marks sm
+ join
+    Student_details sd on sm.Roll_No = sd.Roll_No
+where
+(sm.Subject_1 + sm.Subject_2 + sm.Subject_3) / 3 > @cse_avg_per
+and
+sd.Branch != 'CSE';
