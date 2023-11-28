@@ -23,6 +23,13 @@ where Admission_Date >= '2021-08-17';
 select Student_ID from Student_details
 where (Admission_Date >= '2022-01-01' and Admission_Date <= '2022-12-31');
 
--- vii.Show the total marks of the students whose Student ID comprises an odd
-number, either single digit or double digit.
-
+-- vii.Show the total marks of the students whose Student ID comprises an odd number, either single digit or double digit.
+select
+    sd.Student_ID,
+    sm.Roll_No,
+    (sm.Subject_1 + sm.Subject_2 + sm.Subject_3) as Total_Marks
+from
+join
+    Student_marks sm on sd.Roll_No = sm.Roll_No
+where
+    sd.Student_ID % 2 = 1;
