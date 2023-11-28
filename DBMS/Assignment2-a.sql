@@ -91,3 +91,10 @@ where ENAME like 'S%' or ENAME like '%S';
 select EMPNO, ENAME, JOB from EMP
 where ENAME like '_i%';
 
+-- xiv.List the number of employees working with the company.
+select count(*) as NumberOfEmployees
+from EMP;
+
+-- xv.List the number of designation available in EMP table.
+select count(distinct JOB) as JOBS
+from EMP;
