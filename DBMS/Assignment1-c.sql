@@ -78,3 +78,13 @@ and (
        or
     (sm.Subject_3 > sm.Subject_1 and sm.Subject_3 >= 40)
 );
+
+
+-- xi.Show Student ID, Name and Percentage of marks from Student_marks table for all students.
+select
+    sd.Student_ID,
+    sd.Name,
+    (sm.Subject_1 + sm.Subject_2 + sm.Subject_3)/3 as Percentage
+from Student_marks sm
+join
+    Student_details sd on sm.Roll_No = sd.Roll_No;
