@@ -6,3 +6,7 @@ select Name, Branch from Student_details;
 -- ii.Show the students' information whose name starts with the letter 'S' or ends with character 'S'
 select * from Student_details
 where (Name like 'S%' or Name like '%S');
+
+-- iii.Display students' information of 'CSE' and 'MCSE' departments.
+select * from Student_details
+where Branch = 'CSE' or Branch = 'MCSE';
