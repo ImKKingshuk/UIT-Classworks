@@ -111,3 +111,24 @@ where
 (sm.Subject_1 + sm.Subject_2 + sm.Subject_3) / 3 > @cse_avg_per
 and
 sd.Branch != 'CSE';
+
+
+-- xiii.Show the Names and Roll numbers of students of all Branches who are the first ones to get enrolled on the Attendance Register.
+with FirstEnrolledStudents as (
+    select
+Name,
+Roll_No,
+Branch,
+row_number() over (partition by Branch order by Admission_Date) as RowNum
+from
+)
+(sm.Subject_1 + sm.Subject_2 + sm.Subject_3) / 3 > @cse_avg_per
+and
+sd.Branch != 'CSE';
+Student_details
+select Name,
+Roll_No,
+Branch
+from FirstEnrolledStudents
+where
+    RowNum = 1;
