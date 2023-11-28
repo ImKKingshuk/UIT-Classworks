@@ -50,3 +50,7 @@ where HIREDATE < '1981-07-30';
 -- iii.List names of employees who are not managers.
 select ENAME, JOB from EMP
 where JOB != 'Manager';
+
+-- iv.List names of employees whose employee numbers are 7369, 7521, 7839, 7934, 7788.
+select EMPNO, ENAME from EMP
+where EMPNO in (7369, 7521, 7839, 7934, 7788);
