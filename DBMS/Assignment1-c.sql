@@ -132,3 +132,18 @@ Branch
 from FirstEnrolledStudents
 where
     RowNum = 1;
+
+
+-- xiv.Show the Students' information of all Master degree students who has been studying for more than 10 months since admission.
+select
+    sd.Student_ID,
+    sd.Name,
+    sd.Address,
+    sd.Branch,
+    sd.Roll_No,
+    sd.Admission_Date
+from Student_details sd
+where
+    sd.Branch IN ('MCSE', 'MEIE')
+    and
+       datediff(month, sd.Admission_Date, getdate()) > 10;
