@@ -67,4 +67,7 @@ where HIREDATE >= '1981-06-30' AND HIREDATE <= '1981-12-31';
 select distinct JOB
 from EMP;
 
+-- viii.List the names of employees who are not eligible for commissions.
+select ENAME from EMP
+where COMM is null;
 
