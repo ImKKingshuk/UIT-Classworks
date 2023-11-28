@@ -147,3 +147,9 @@ where
     sd.Branch IN ('MCSE', 'MEIE')
     and
        datediff(month, sd.Admission_Date, getdate()) > 10;
+
+
+-- xv.Show the Branch-wise list of students with their names arranged in lexicographic fashion.
+select Branch, Name
+from Student_details
+order by Name
