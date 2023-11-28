@@ -33,3 +33,14 @@ join
     Student_marks sm on sd.Roll_No = sm.Roll_No
 where
     sd.Student_ID % 2 = 1;
+
+-- viii.Show the Student IDs and Names of students who have failed in Subject 2 (marks less than 40).
+select
+    sd.Student_ID,
+    sd.Name,
+    sm.Subject_2
+from
+join
+    Student_details sd on sm.Roll_No = sd.Roll_No
+where
+    sm.Subject_2 < 40;
