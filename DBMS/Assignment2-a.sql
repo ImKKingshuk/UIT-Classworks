@@ -71,3 +71,8 @@ from EMP;
 select ENAME from EMP
 where COMM is null;
 
+-- ix.List the name and designation of the employee who doesn't report to anybody.
+select ENAME, JOB from EMP
+where MGR is null;
+
+
