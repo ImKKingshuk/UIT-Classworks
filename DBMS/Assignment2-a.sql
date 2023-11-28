@@ -82,3 +82,12 @@ where DEPTNO is null;
 -- xi.List the employees who are eligible for commissions.
 select EMPNO, ENAME, JOB, COMM from EMP
 where COMM is not null;
+
+-- xii.List the employees whose names either start or end with 'S'.
+select EMPNO, ENAME, JOB from EMP
+where ENAME like 'S%' or ENAME like '%S';
+
+-- xiii.List the employees whose names have 'i' as the second character.
+select EMPNO, ENAME, JOB from EMP
+where ENAME like '_i%';
+
