@@ -109,4 +109,7 @@ select
        avg(SAL) as AVGSAL
 from EMP;
 
-
+-- xviii.List the maximum salary paid to a salesman.
+select max(SAL) as MAX_SAL
+from EMP
+where JOB = 'Salesman';
