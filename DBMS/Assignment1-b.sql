@@ -7,12 +7,13 @@ values
 (2, 'Wonyoung', 'South Korea', 'CSE', 'IVE', '2021-9-1'),
 (3, 'Rose', 'New Zealand', 'CSE', 'BLɅϽKPIИK', '2021-9-1'),
 (4, 'Jennie', 'South Korea', 'CSE', 'BLɅϽKPIИK', '2021-9-1'),
-(5, 'Yuna', 'South Korea', 'CSE', 'ITZY', '2021-9-1'),
-(6, 'Ningning', 'China', 'CSE', 'aespa', '2021-9-1'),
-(7, 'Karina', 'South Korea', 'CSE', 'aespa', '2021-9-1'),
-(8, 'Nova', 'Russia', 'CSE', 'X:IN', '2021-9-1'),
-(9, 'Yuna', 'South Korea', 'CSE', '', '2021-9-1'),
-(10, 'Yuna', 'South Korea', 'CSE', '', '2021-9-1'),
+(5, 'Zhao Lu Si', 'China', 'CSE', 'BLɅϽKPIИK', '2021-9-1'),
+(6, 'Yuna', 'South Korea', 'CSE', 'ITZY', '2021-9-1'),
+(7, 'Ningning', 'China', 'CSE', 'aespa', '2021-9-1'),
+(8, 'Karina', 'South Korea', 'CSE', 'aespa', '2021-9-1'),
+(9, 'Nova', 'Russia', 'CSE', 'X:IN', '2021-9-1'),
+(10, 'Nancy', 'United States of America', 'CSE', 'MOMOLAND', '2021-9-1'),
+
 
 
 
