@@ -1,14 +1,12 @@
-# Write a program to check whether a number is odd or even or prime 
+# Multiplication of Matrix using function 
 
-num = int(input("Enter a number: "))
+def multiply_matrices(matrix1, matrix2):
+    result = [[sum(a*b for a, b in zip(row, col)) for col in zip(*matrix2)] for row in matrix1]
+    return result
 
-if num % 2 == 0:
-    print(f"{num} is even.")
-else:
-    print(f"{num} is odd.")
+matrix1 = [[1, 2], [3, 4]]
+matrix2 = [[5, 6], [7, 8]]
+result_matrix = multiply_matrices(matrix1, matrix2)
 
-is_prime = num > 1 and all(num % i != 0 for i in range(2, int(num**0.5) + 1))
-if is_prime:
-    print(f"{num} is prime.")
-else:
-    print(f"{num} is not prime.")
+for row in result_matrix:
+    print(row)
