@@ -10,8 +10,8 @@ The repository is organized by academic year and further divided into courses an
 UIT-Classworks/
 ├── Year1/
 │   ├── Course1/
-│   │   ├── Assignment1/
-│   │   ├── Assignment2/
+│   │   ├── Assignment1
+│   │   ├── prog1
 │   │   └── ...
 │   ├── Course2/
 │   └── ...
