@@ -39,6 +39,8 @@ The repository includes assignments and projects written in various programming 
 - **MATLAB**
 - **Database Management Systems (DBMS)**
 - **Data Structures & Algorithms (DSA)**
+- **Computer Networks**
+- **Operating System**
 
 ## How to Navigate
 
