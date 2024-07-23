@@ -92,7 +92,7 @@ coordinates = (10, 20, 30, 100)
 
 # Accessing elements
 print(coordinates[0])  # Output: 10
-print(f" here the 3rd tuple: {coordinates[0]}") 
+print(f" here the 3rd tuple: {coordinates[2]}") 
 
 # Tuples are immutable
 # coordinates[0] = 15  # This will raise an error
