@@ -1,4 +1,4 @@
-/* Program to Count Vowels and Consonants in a Given String */
+/*Program to Count Vowels and Consonants in a Given String*/
 
 %{
 #include <stdio.h>
