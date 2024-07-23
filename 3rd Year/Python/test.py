@@ -3,9 +3,11 @@ print ("ImKKingshuk")
 sum= 5+3
 print(f"result of sum: {sum}")
 
-meow=5-3
-print(f"result of difference : {meow}")
+difference=5-3
+print(f"result of difference : {difference}")
 
-meow=5*3
-print(f"product of meow : {meow}")
+product=5*3
+print(f"product of meow : {product}")
+
+
 
