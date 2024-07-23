@@ -96,3 +96,16 @@ print(f" here the 3rd tuple: {coordinates[2]}")
 
 # Tuples are immutable
 # coordinates[0] = 15  # This will raise an error
+
+
+# Creating a set
+fruits = {"apple", "xioami", "huawei"}
+
+# Adding elements
+fruits.add("samsung")
+
+# Removing elements
+fruits.remove("xiaomi")
+
+# Checking membership
+print("apple" in fruits)  # Output: True
