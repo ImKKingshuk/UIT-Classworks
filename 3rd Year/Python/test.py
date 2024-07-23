@@ -99,7 +99,7 @@ print(f" here the 3rd tuple: {coordinates[2]}")
 
 
 # Creating a set
-fruits = {"apple", "xioami", "huawei"}
+fruits = {"apple", "xiaomi", "huawei"}
 
 # Adding elements
 fruits.add("samsung")
@@ -108,4 +108,10 @@ fruits.add("samsung")
 fruits.remove("xiaomi")
 
 # Checking membership
-print("apple" in fruits)  # Output: True
+print("xiaomi" in fruits)  # Output: True
+
+#Implicit Conversion
+x = 10   # int
+y = 3.5  # float
+z = x + y  # x is implicitly converted to float
+print(f"here the value of z: {z}")  # Output: 13.5
