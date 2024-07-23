@@ -78,5 +78,9 @@ print(f"Here is student data: {student['name']}")  # Output: Alice
 # Adding elements
 student["grade"] = "A"
 
+print(f"Here is student data: {student}") 
+
 # Removing elements
 del student["age"]
+
+print(f"Here is student data: {student}") 
