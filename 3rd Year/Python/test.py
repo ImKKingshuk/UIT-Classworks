@@ -115,3 +115,9 @@ x = 10   # int
 y = 3.5  # float
 z = x + y  # x is implicitly converted to float
 print(f"here the value of z: {z}")  # Output: 13.5
+
+#Explicit Conversion
+x = "10"
+y = int(x)  # Explicitly converting string to int
+print(y)  # Output: 10
+
