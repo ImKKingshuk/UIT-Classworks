@@ -12,5 +12,8 @@ print(f"product of meow : {product}")
 division=6/3
 print (f"division result : {division}")
 
+power=2**3
+print(f"power result : {power}")
+
 
 
