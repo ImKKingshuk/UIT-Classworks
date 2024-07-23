@@ -1,5 +1,3 @@
-// Write a program to read & write two messages using pipeline
-
 #include<stdio.h>
 #include<unistd.h>
 
