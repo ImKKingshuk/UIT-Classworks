@@ -1,4 +1,4 @@
-/* Program to Count Words Containing 'a' and 'b' Only */
+/*Program to Count Words Containing 'a' and 'b' Only*/
 
 %{
 #include <stdio.h>
