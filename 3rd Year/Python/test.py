@@ -121,3 +121,11 @@ x = "10"
 y = int(x)  # Explicitly converting string to int
 print(y)  # Output: 10
 
+
+
+first_number = input("enter first number : ")
+second_number = input("enter second number : ")
+
+sum= int(first_number) + int(second_number)
+
+print(f"Sum of two numbers : {sum}")
