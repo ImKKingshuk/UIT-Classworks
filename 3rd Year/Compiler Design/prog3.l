@@ -2,12 +2,13 @@
 
 %{
 #include <stdio.h>
-int characters = 0, words = 0, spaces = 0, lines = 0;
-int in_word = 0;
 
 int yywrap() {
     return 1;
 }
+
+int characters = 0, words = 0, spaces = 0, lines = 0;
+int in_word = 0;
 %}
 
 %%
