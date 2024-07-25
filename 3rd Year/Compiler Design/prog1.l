@@ -3,6 +3,10 @@
 %{
 #include <stdio.h>
 int count = 0;
+
+int yywrap(void) {
+    return 1;
+}
 %}
 
 %%
