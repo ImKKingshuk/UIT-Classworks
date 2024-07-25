@@ -2,11 +2,12 @@
 
 %{
 #include <stdio.h>
-int vowels = 0, consonants = 0;
 
 int yywrap() {
     return 1;
 }
+
+int vowels = 0, consonants = 0;
 %}
 
 %%
