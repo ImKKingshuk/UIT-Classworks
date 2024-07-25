@@ -4,7 +4,7 @@
 #include <stdio.h>
 int vowels = 0, consonants = 0;
 
-int yywrap(void) {
+int yywrap() {
     return 1;
 }
 %}
