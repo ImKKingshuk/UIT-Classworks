@@ -2,11 +2,13 @@
 
 %{
 #include <stdio.h>
-int positive_count = 0, negative_count = 0;
 
 int yywrap() {
     return 1;
 }
+
+int positive_count = 0, negative_count = 0;
+
 %}
 
 %%
