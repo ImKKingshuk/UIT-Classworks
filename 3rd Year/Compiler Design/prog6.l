@@ -3,7 +3,7 @@
 %{
 #include <stdio.h>
 
-int yywrap(void) {
+int yywrap() {
     return 1;
 }
 %}
