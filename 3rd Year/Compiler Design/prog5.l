@@ -3,6 +3,10 @@
 %{
 #include <stdio.h>
 #include <stdlib.h>
+
+int yywrap(void) {
+    return 1;
+}
 %}
 
 %%
