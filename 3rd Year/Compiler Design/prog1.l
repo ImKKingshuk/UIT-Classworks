@@ -2,11 +2,12 @@
 
 %{
 #include <stdio.h>
-int count = 0;
 
 int yywrap() {
     return 1;
 }
+
+int count = 0;
 %}
 
 %%
