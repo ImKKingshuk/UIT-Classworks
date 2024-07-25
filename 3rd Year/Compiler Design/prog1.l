@@ -4,7 +4,7 @@
 #include <stdio.h>
 int count = 0;
 
-int yywrap(void) {
+int yywrap() {
     return 1;
 }
 %}
